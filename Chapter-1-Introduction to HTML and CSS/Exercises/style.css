@@ -1,0 +1,54 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #ede8d0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+} /*styling of the body*/
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #DEB887;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+} /*styling of the container that contains all the content*/
+
+h1 {
+  text-align: center;
+  color: #764403;
+  padding: 10px;
+  font-size: 3em;
+  border-radius: 10px;
+  font-family: Dancing Script, cursive;
+  font-style: normal;
+  font-weight: normal;
+} /*main title styling*/
+
+h2 {
+  color: #764403;
+  border-bottom: 2px solid #f2e9e4;
+  padding-bottom: 5px;
+  margin-top: 30px;
+} /*Subheadings for ingredients and method*/
+
+ul, ol {
+  line-height: 1.6;
+  padding-left: 20px;
+} /*List styling for ingredients and method*/
+
+.note {
+  background-color: #ffe5b4;
+  padding: 10px 15px;
+  border-left: 4px solid #764403;
+  font-style: italic;
+  margin-top: 30px;
+  border-radius: 8px;
+} /*style for the note section*/
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+} /*image styling*/
