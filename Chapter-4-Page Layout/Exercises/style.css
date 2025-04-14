@@ -1,0 +1,111 @@
+.header{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.box{
+  background-color: #17072b;
+  height: 180px;
+  padding-top: 20px;
+}
+
+.navbar{
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  display: flex;
+  color: white;
+  justify-content: center;
+  gap: 35px;
+  font-size: 26px;
+  top: -5px;
+
+}
+
+.body{
+  background-color: white;
+  height: 680px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: black;
+  text-decoration: underline;
+  padding: 20px;
+  padding-inline-start: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  padding-left: 20px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aside{
+  top: 210px;
+  width: 530px;
+  height: 630px;
+  right: 0%;
+  position: absolute;
+  background-color: #172d67;
+  color: white; 
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img{
+  padding-inline-start: 20px;
+  padding-top: 10px;
+  width: 920px;
+  height: 450px;
+  margin-top: 25px;
+}
+
+.lineup{
+  color: white;
+  text-decoration: underline;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+ul li{
+  list-style: none;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2px; 
+  font-size: 20px;
+}
+
+.img2{
+  width: 235px;
+  height: auto;
+  margin-top: 90px;
+}
+
+.img3{
+  width: 235px;
+  height: auto;
+}
+
+.footer{
+  text-align: center;
+  background-color: #8c15e9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+}
