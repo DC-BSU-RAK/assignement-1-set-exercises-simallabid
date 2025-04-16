@@ -1,0 +1,44 @@
+div {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 25px;
+    border: 4px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  } /* Styles applied to all divs */
+  
+  body {
+    margin: 100px auto;
+    width: max-content;
+  } /* Styles for the body element */
+
+  #a{
+    background-color: white;
+    border-color: purple;
+    box-shadow: 5px 5px 15px rgba(219, 17, 17, 1.4);     
+  } /* Styles for div with id="a" */
+
+  #b{
+    background-color: white;
+    border-color: greenyellow;
+    box-shadow: inset 8px 8px 12px rgba(0, 0, 0, 4);  /* inner shadow: top-left */
+} /* Styles for div with id="b" */
+
+#c{
+    border-color: white;          
+    border-radius: 20px;           /* Rounds corners with 20px radius */
+    box-shadow: 
+        0 0 0 5px rgb(214, 157, 11),  
+        0 0 0 20px rgb(30, 62, 186),  
+        0 0 0 30px rgb(242, 55, 3),  
+        0 0 0 40px rgb(7, 227, 29); 
+} /* Styles for div with id="c" */
+
+#d{
+    border-color: red;          
+    text-shadow: 6px 6px 1.5px black; /* this code Adds black shadow to text, offset 6px right/down */
+} /* Styles for div with id="d" */
