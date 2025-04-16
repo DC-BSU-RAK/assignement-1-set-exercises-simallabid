@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* Reset default spacing */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8dcdc, #ffe8e8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* Center everything */
+
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+} /* Container box */
+
+
+h1 {
+  color: #d94a7a;
+  margin-bottom: 20px;
+} /* Heading */
+
+
+input, button {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #ffc0cb;
+} /* Input and button styling */
+
+
+input:focus {
+  border-color: #ff80ab;
+  outline: none;
+} /* Focus input */
+
+
+button {
+  background-color: #ff80ab;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+} /* Button styling */
+
+
+button:hover {
+  background-color: #ff4f8b;
+}
+
+#totalAmount {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #a3335d;
+  font-weight: bold;
+} /* Total amount text */
+
