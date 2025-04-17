@@ -29,6 +29,7 @@ div {
 } /* Styles for div with id="b" */
 
 #c{
+  background-color: white;
     border-color: white;          
     border-radius: 20px;           /* Rounds corners with 20px radius */
     box-shadow: 
@@ -39,6 +40,7 @@ div {
 } /* Styles for div with id="c" */
 
 #d{
+  background-color: white;
     border-color: red;          
     text-shadow: 6px 6px 1.5px black; /* this code Adds black shadow to text, offset 6px right/down */
 } /* Styles for div with id="d" */
